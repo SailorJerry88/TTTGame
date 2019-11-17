@@ -11,28 +11,28 @@
   <children>
     <GridPane layoutX="61.0" layoutY="61.0" prefHeight="311.0" prefWidth="218.0">
       <children>
-        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="AC" textAlignment="LEFT" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="0">
+        <Button alignment="CENTER" blendMode="DIFFERENCE" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="AC" textAlignment="LEFT" textFill="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="0">
           <font>
-            <Font size="12.0" />
+            <Font name="Calibri Bold" size="19.0" fx:id="x1" />
           </font>
         </Button>
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="C" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="0" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="7" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="8" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="9" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="+" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" wrapText="false" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="4" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="2" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="5" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="6" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="-" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="1" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="3" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="2" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="3" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="*" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="0" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="4" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="." textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="=" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="/" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="C" textFill="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="7" textFill="BLACK" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="8" textFill="BLACK" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="9" textFill="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="+" textFill="BLACK" textOverrun="CENTER_ELLIPSIS" wrapText="false" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="4" textFill="BLACK" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="5" textFill="BLACK" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="6" textFill="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="-" textFill="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="1" textFill="BLACK" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="2" textFill="BLACK" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="3" textFill="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="*" textFill="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="0" textFill="BLACK" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="." textFill="BLACK" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="=" textFill="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="/" textFill="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="4" />
       </children>
       <columnConstraints>
         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
