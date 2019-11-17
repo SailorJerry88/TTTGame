@@ -15,30 +15,31 @@ public class CalcController {
     private Operation currentOperation;
     private boolean shouldClearOnAppend = false;
 
+
     private BigDecimal getValueFromScreen() {
         return new BigDecimal(pole.getText());
     }
 
     private void handleOperationPressed(Operation operation){
-        value = Integer.parseInt(pole.getText());
+        value = new BigDecimal(pole.getText());
         currentOperation = operation;
         pole.clear();
     }
 
-    private int calculate(BigDecimal secondValue){
+    private BigDecimal calculate(BigDecimal secondValue){
 
         switch (currentOperation){
             case ADD:
-                return value + secondValue;
+                return value.add(secondValue);
             case MINUS:
-                return value - secondValue;
+                return value.min(secondValue);
             case MULT:
-                return value / secondValue;
+                return value.divide(secondValue);
             case DIV:
-                return value * secondValue;
+                return value.multiply(secondValue);
 
         }
-        return 0;
+        return new BigDecimal(0);
     }
 
 
