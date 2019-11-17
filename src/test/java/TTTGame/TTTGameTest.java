@@ -1,4 +1,4 @@
-package TTTGame;
+/*package TTTGame;
 
 import Game.Exeption.FieldTakenExeption;
 import org.junit.Test;
@@ -71,3 +71,4 @@ public class TTTGameTest {
 }
 
 
+*/
