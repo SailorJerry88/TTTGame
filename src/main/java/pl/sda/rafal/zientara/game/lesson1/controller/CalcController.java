@@ -13,13 +13,34 @@ public class CalcController {
     private int value;
     private Operation currentOperation;
 
-
     @FXML
     private void handlePlusPressed(ActionEvent event) {
         value = Integer.parseInt(pole.getText());
         currentOperation = Operation.ADD;
-        pole.setText(null);
+        pole.clear();
     }
+
+    private int getValueFromScreen(){
+        return Integer.parseInt(pole.getText());
+    }
+
+
+    @FXML
+    private void handleEqualsPressed() {
+        int secondValue = getValueFromScreen();
+        int output = calculate(secondValue);
+    }
+
+    private int calculate(int secondValue){
+
+        switch (currentOperation){
+            case ADD:
+                return value + secondValue;
+
+        }
+        return 0;
+    }
+
 
 
     @FXML

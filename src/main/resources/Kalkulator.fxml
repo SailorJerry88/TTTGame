@@ -31,7 +31,7 @@
         <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="*" textFill="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="3" />
         <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="0" textFill="BLACK" onAction="#handleZeroPressed" GridPane.columnIndex="0" GridPane.rowIndex="4" />
         <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="." textFill="BLACK" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="=" textFill="BLACK" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="=" textFill="BLACK" onAction="#handleEqualsPressed" GridPane.columnIndex="2" GridPane.rowIndex="4" />
         <Button blendMode="DIFFERENCE" font="$x1" mnemonicParsing="false" prefHeight="60.0" prefWidth="80.0" text="/" textFill="BLACK" GridPane.columnIndex="3" GridPane.rowIndex="4" />
       </children>
       <columnConstraints>
